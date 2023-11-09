@@ -3,7 +3,7 @@ import { createClient } from 'contentful';
 
 
 const client = createClient({
-  space: import.meta.env.SPACE_ID,
+  space: 'pxx3j5n6crtj',
   environment: 'master', 
   accessToken: import.meta.env.VITE_API_KEY,
 });
